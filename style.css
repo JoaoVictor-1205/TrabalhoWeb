@@ -1,0 +1,141 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+header h1 {
+    color: #ff5733;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+#artist-info {
+    background-color: white;
+    border: 2px solid #ff5733;
+    padding: 20px;
+    margin: 20px auto;
+    width: 60%;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+#main-image {
+    width: 70%;
+    transition: border 0.3s ease;
+}
+
+#main-image:hover {
+    border: 5px solid #ff5733;
+}
+
+#logo-image {
+    width: 100px;
+    margin-top: 10px;
+}
+
+blockquote {
+    font-style: italic;
+    color: #333;
+    background: #eee;
+    padding: 10px;
+    border-left: 5px solid #ff5733;
+}
+
+#ouvir-agora {
+    background-color: #28a745;
+    color: white;
+    font-size: 20px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.5s, transform 0.3s;
+}
+
+#ouvir-agora:hover {
+    background-color: #218838;
+    transform: scale(1.05);
+}
+
+#ouvir-agora:active {
+    border: 2px solid #155724;
+}
+
+.dropdown-menu {
+    background-color: #222 !important;
+    color: white !important;
+}
+
+.album img {
+    width: 150px;
+    transition: transform 0.3s;
+}
+
+.album img:hover {
+    transform: translateY(-5px);
+}
+
+.album p {
+    transition: color 0.3s;
+}
+
+.album:hover p {
+    color: #ff5733;
+}
+
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+th {
+    background-color: #444;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #ddd;
+}
+
+tr:hover {
+    background-color: #bbb;
+}
+
+@media (max-width: 600px) {
+    body {
+        background-color: orange;
+    }
+    #ouvir-agora {
+        background-color: red;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 900px) {
+    body {
+        background-color: blue;
+    }
+    #ouvir-agora {
+        background-color: yellow;
+    }
+}
+
+@media (min-width: 900px) {
+    body {
+        background-color: purple;
+    }
+    #ouvir-agora {
+        background-color: green;
+    }
+}
+
+
