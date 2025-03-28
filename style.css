@@ -14,7 +14,7 @@ header h1 {
 }
 
 #artist-info {
-    background-color: white;
+    background-color: rgb(95, 92, 92);
     border: 2px solid #ff5733;
     padding: 20px;
     margin: 20px auto;
@@ -131,7 +131,7 @@ tr:hover {
 
 @media (min-width: 900px) {
     body {
-        background-color: purple;
+        background-color: black;
     }
     #ouvir-agora {
         background-color: green;
