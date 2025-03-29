@@ -10,21 +10,21 @@
     
 </head>
 <body>
-    <header>
-        <h1 id="artist-title">Matuê</h1>
-    </header>
     <main>
         <div id="artist-info">
-            <img id="main-image" src="matue4.webp" alt="Imagem do Artista">
+            <header>
+                <h1 id="artist-title">Matuê</h1>
+            </header>
+            <img id="main-image" src="matue.webp" alt="Imagem do Artista">
             <p>Matheus Brasileiro Aguiar, nome artístico de Matuê, é um dos maiores nomes do trap brasileiro.</p>
             <p>Começou sua carreira musical em 2015, lançando uma mixtape de reggae, porém foi com o single "Anos Luz", lançado em 2017 que ele se detacou.</p>
             <p>Suas músicas frequentemente abordam temas como ambição, superação, reflexões sobre a vida e o sucesso, e a importância da autenticidade.</p>
             <blockquote>"Pra doença do vacilo, eu tomei vacina."</blockquote>
             <h2>Músicas Preferidas</h2>
             <ol>
-                <li>Anos Luz</li>
-                <li>A Morte do Autotune</li>
-                <li>333</li>
+                <li><a href="https://open.spotify.com/intl-pt/album/2NtkW7FT1VdKVjGXhLKp9k">Anos Luz</a></li>
+                <li><a href="https://open.spotify.com/intl-pt/track/4MF0VMffyxHsy3GZwwUnAs">A Morte do Autotune</a></li>
+                <li><a href="https://open.spotify.com/intl-pt/track/0qsKefQyXCzaxjHbOcd8IU">333</a></li>
             </ol>
             <h2>Curiosidades</h2>
             <ul>
@@ -32,49 +32,126 @@
                 <li>Ele é o primeiro rapper brasileiro a atingir 3 bilhões de reproduções no Spotify</li>
                 <li>Matuê é o fundador da gravadora 30PRAUM, que se tornou um selo importante na cena do trap brasileiro, lançando outros artistas notáveis como Teto e WIU</li>
             </ul>
-            <a href="http://youtube.com/watch?v=aq-DH4iwviE" target="_blank">
+            <a href="https://open.spotify.com/intl-pt/artist/5nP8x4uEFjAAmDzwOEc9b8" target="_blank">
                 <button id="ouvir-agora">Ouvir Agora</button>
             </a>
+
+            <div class="d-flex justify-content-center mt-4">
+                <div class="dropdown">
+                    <button class="btn btn-danger dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+                        🎵 Escolha seu som
+                    </button>
+                    <ul class="dropdown-menu dropdown-dark" aria-labelledby="dropdownMenuButton">
+                        <li><a class="dropdown-item" href="https://www.youtube.com/results?search_query=rock matue" target="_blank">Rock</a></li>
+                        <li><a class="dropdown-item" href="https://www.youtube.com/results?search_query=pop matue" target="_blank">Pop</a></li>
+                        <li><a class="dropdown-item" href="https://www.youtube.com/results?search_query=jazz matue" target="_blank">Jazz</a></li>
+                        <li><a class="dropdown-item" href="https://www.youtube.com/results?search_query=mpb matue" target="_blank">MPB</a></li>
+                    </ul>
+                </div>
+            </div>
+            
         </div>
         
-        <div class="dropdown d-flex justify-content-center">
-            <button class="btn btn-primary dropdown-toggle" type="button" data-bs-toggle="dropdown">Escolha seu som</button>
-            <ul class="dropdown-menu bg-dark text-light">
-                <li><a class="dropdown-item" href="#">Rock</a></li>
-                <li><a class="dropdown-item" href="#">Pop</a></li>
-                <li><a class="dropdown-item" href="#">Jazz</a></li>
-                <li><a class="dropdown-item" href="#">MPB</a></li>
-            </ul>
-        </div>
-
+        <h2>Albuns</h2>
         <div id="gallery">
-            <div class="album"><img src="capa1.jpg" alt="Capa 1"><p>Álbum 1</p></div>
-            <div class="album"><img src="capa2.jpg" alt="Capa 2"><p>Álbum 2</p></div>
-            <div class="album"><img src="capa3.jpg" alt="Capa 3"><p>Álbum 3</p></div>
+            <div class="album">
+                <a href="https://open.spotify.com/intl-pt/album/6ehm0SMBBoSxH8oSrFXre6"><img src="capa-matue-mdt.webp" alt="Capa 1"></a><p>Máquina do Tempo</p>
+            </div>
+            <div class="album">
+                <a href="https://open.spotify.com/intl-pt/album/5CP84pfi4AFe95UTACFWrk"><img src="0x1900-000000-80-0-0.jpg" alt="Capa 2"></a><p>333</p>
+            </div>
+            <div class="album"><a href="https://open.spotify.com/intl-pt/album/1rTbSeEJ9D8doCj60u7RmG">
+                <img src="0x1900-000000-80-0-0 (1).jpg" alt="Capa 3"></a><p>S.O.N.Y</p>
+            </div>
+            <div class="album">
+                <a href="https://open.spotify.com/intl-pt/album/63K61G3WTZrRUHZzAUPqHn"><img src="0x1900-000000-80-0-0 (2).jpg" alt="Capa 3"></a><p>Filho da Noite</p>
+            </div>
         </div>
 
-        <table>
-            <caption>Discografia</caption>
+        <div id="shows">
+            <h2>🎶 Próximos Shows</h2>
+            <div class="grid-container">
+                <div class="grid-header">Data</div>
+                <div class="grid-header">Cidade</div>
+                <div class="grid-header">Local</div>
+                <div class="grid-header">Artista</div>
+        
+                <div>15/04/2025</div> <div>São Paulo</div> <div>Allianz Parque</div> <div>Matuê</div>
+                <div>22/04/2025</div> <div>Rio de Janeiro</div> <div>Jeunesse Arena</div> <div>WIU</div>
+                <div>30/04/2025</div> <div>Belo Horizonte</div> <div>Mineirão</div> <div>Teto</div>
+                <div>05/05/2025</div> <div>Recife</div> <div>Classic Hall</div> <div>Matuê</div>
+                <div>12/05/2025</div> <div>Curitiba</div> <div>Ópera de Arame</div> <div>30PRAUM</div>
+            </div>
+        </div>
+        
+        <div id="musical-genres">
+            <h2>Gêneros Musicais</h2>
+            <ol>
+                <li>Rock
+                    <ul>
+                        <li>Led Zeppelin</li>
+                        <li>Pink Floyd</li>
+                    </ul>
+                </li>
+                <li>Pop
+                    <ul>
+                        <li>Michael Jackson</li>
+                        <li>Beyoncé</li>
+                    </ul>
+                </li>
+                <li>Jazz
+                    <ul>
+                        <li>Louis Armstrong</li>
+                        <li>Duke Ellington</li>
+                    </ul>
+                </li>
+                <li>MPB
+                    <ul>
+                        <li>Caetano Veloso</li>
+                        <li>Gal Costa</li>
+                    </ul>
+                </li>
+            </ol>
+        </div>
+        
+        <table id="discografia">
+            <caption>Discografia dos Artistas</caption>
             <thead>
                 <tr>
-                    <th>Artista</th>
-                    <th>Álbum</th>
-                    <th>Ano</th>
+                    <th>Nome do Artista</th>
+                    <th>Nome do Álbum</th>
+                    <th>Ano de Lançamento</th>
                 </tr>
             </thead>
             <tbody>
                 <tr>
-                    <td>Artista 1</td>
-                    <td>Álbum 1</td>
-                    <td>2016</td>
+                    <td>Imagine Dragons</td>
+                    <td>Evolve</td>
+                    <td>2017</td>
                 </tr>
                 <tr>
-                    <td>Artista 2</td>
-                    <td>Álbum 2</td>
-                    <td>2018</td>
+                    <td>Taylor Swift</td>
+                    <td>Reputation</td>
+                    <td>2017</td>
+                </tr>
+                <tr>
+                    <td>Ed Sheeran</td>
+                    <td>Divide</td>
+                    <td>2017</td>
+                </tr>
+                <tr>
+                    <td>Adele</td>
+                    <td>25</td>
+                    <td>2015</td>
+                </tr>
+                <tr>
+                    <td>Coldplay</td>
+                    <td>A Head Full of Dreams</td>
+                    <td>2015</td>
                 </tr>
             </tbody>
         </table>
+        
     </main>
     <footer>
         <p>Desenvolvido por Felipe Lee/Gabriel Herique Dias/João Victor/Jorge Rodrigues - Turma Eng. de Software 1º semestre A</p>
@@ -83,7 +160,7 @@
         <script>
             addEventListener("DOMContentLoaded", function() {
             document.getElementById("ouvir-agora").addEventListener("click", function() {
-                window.open("https://www.youtube.com", "_blank");
+                window.open("https://open.spotify.com/intl-pt/artist/5nP8x4uEFjAAmDzwOEc9b8", "_blank");
             });
         });</script>
 </body>
